@@ -9,3 +9,5 @@ The Confusion Matrix and the Classification Report of the Weak learners ensemble
 The Confusion Matrix and the Classification Report of the Neural Network learners ensemble is expected to be like:
 
 <img width="292" alt="strong learners" src="https://user-images.githubusercontent.com/108266112/191858918-7ad48e33-28ce-47b8-b5b0-5f530ea12966.png">
+
+The tests showed the negative impact of using imbalanced data on the models. But what is also shown, is that this problem can be fixed using different techniques, like Synthetic Minority Over-sampling Technique (SMOTE). For the comparison of the two models when trained with balanced data, it is shown that both models perform adequately, with the neural network ensemble being a bit better solution as far as results as concerned. But when the consumed time is factored in, the neural networks ensemble falls short of the weak models ensemble. So even though both models are acceptable, which one is preferred depends on how much time is available for the user.
